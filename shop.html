@@ -10,9 +10,9 @@
   <header>
     <h1>My Web Development Project</h1>
     <nav>
-      <a href="index.html">Home</a> |
-      <a href="about.html">About</a> |
-      <a href="class.html">Classroom</a> |
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="class.html">Classroom</a>
       <a href="shop.html" aria-current="page">Shop</a>
     </nav>
   </header>
@@ -28,42 +28,48 @@
             <li>Classroom Supplies</li>
           </ul>
           <h4>Hours</h4>
-          <p>Mon–Fri: 9:00 — 17:00</p>
+          <p>Mon–Fri: 9:00–17:00</p>
           <h4>Contact</h4>
           <p><a href="mailto:akhilsingh3862@gmail.com">akhilsingh3862@gmail.com</a></p>
         </aside>
         <div>
           <h3>Featured Products</h3>
-          <div>
-            <img src="images/notebook..jpg" alt="Notebook">
-            <div>
-              <h4>Notebook</h4>
-              <p>A4 ruled — 50 pages.</p>
-              <p><strong>Qty:</strong> 60</p>
-            </div>
-          </div>
-          <div>
-            <img src="images/pen.jpg" alt="Pens">
-            <div>
-              <h4>Ballpoint Pens (Pack)</h4>
-              <p>Pack of 10 — smooth ink.</p>
-              <p><strong>Qty:</strong> 200</p>
-            </div>
-          </div>
-          <div>
-            <img src="images/projector.jpg" alt="Projector">
-            <div>
-              <h4>Projector</h4>
-              <p>Portable HD projector.</p>
-              <p><strong>Qty:</strong> 1</p>
-            </div>
-          </div>
+          <table class="products-table">
+            <thead>
+              <tr>
+                <th>Image</th>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Qty</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src="images/notebook..jpg" alt="Notebook"></td>
+                <td>Notebook</td>
+                <td>A4 ruled — 50 pages</td>
+                <td>60</td>
+              </tr>
+              <tr>
+                <td><img src="images/pen.jpg" alt="Pens"></td>
+                <td>Ballpoint Pens (Pack)</td>
+                <td>Pack of 10 — smooth ink</td>
+                <td>200</td>
+              </tr>
+              <tr>
+                <td><img src="images/projector.jpg" alt="Projector"></td>
+                <td>Projector</td>
+                <td>Portable HD projector</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
   </main>
   <footer>
-    <p class="footer">&copy; 2025 Shop — WD Assignment</p>
+    <p>&copy; 2025 Shop — WD Assignment</p>
   </footer>
 </body>
 </html>
